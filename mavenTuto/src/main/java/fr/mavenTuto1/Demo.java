@@ -1,4 +1,4 @@
-package mavenTuto1;
+package fr.mavenTuto1;
 
 public class Demo {
 	 public boolean getBool() {
