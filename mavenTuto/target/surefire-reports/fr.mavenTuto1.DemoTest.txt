@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: fr.mavenTuto1.DemoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec <<< FAILURE!
-devraitRetournerVrai(fr.mavenTuto1.DemoTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec <<< FAILURE!
+devraitRetournerVrai(fr.mavenTuto1.DemoTest)  Time elapsed: 0.01 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)

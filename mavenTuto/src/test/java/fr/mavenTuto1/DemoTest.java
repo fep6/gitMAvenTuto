@@ -11,8 +11,8 @@ public class DemoTest {
 	@Test
 	public void devraitRetournerVrai() {
 		Demo demo = new Demo();
-		assertTrue(Demo2.getBool());
 		assertTrue(demo.getBool());
+		assertTrue(Demo2.getBool());
 		System.out.println(demo.getBool());
 	}
 }
