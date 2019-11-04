@@ -1,3 +1,5 @@
+<!-- https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/java-create-jar-pkg-maven-and-eclipse.html  -->
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>tutoriels</groupId>
@@ -7,16 +9,33 @@
   <url>https://www.youtube.com/watch?v=yb-VG-s-Ifc&amp;list=PLwAX_Bwbts_c4iHfJBN9JU1tNdmzgo6E_</url>
     <!-- declaration de versions -->
 	<properties>
-	<maven.compiler.source>1.8</maven.compiler.source>
-	<maven.compiler.target>1.8</maven.compiler.target>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties> 
 	
   <dependencies>
-  	<dependency>
+<!--   	<dependency>
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
   		<version>4.11</version>
+  	</dependency> -->
+  	<dependency>
+  		<groupId>com.amazonaws</groupId>
+  		<artifactId>aws-lambda-java-core</artifactId>
+  		<version>1.2.0</version>
   	</dependency>
   </dependencies>
+  
+    <!-- Rajoute par https://www.youtube.com/watch?v=eto_D1CY-qQ&list=PLwAX_Bwbts_c4iHfJBN9JU1tNdmzgo6E_&index=2 -->
+<!--   <build>
+   	<artifactId>maven-compiler-plugin</artifactId>
+  	<version>2.3.2</version>
+  	<configuration>
+  		<source>1.7</source>
+  		<target>1.7</target>
+  	</configuration>
+  </build>  -->
+
+  
 </project>
